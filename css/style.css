@@ -1,5 +1,4 @@
 html {
-    width:1280px;
   background: url(../bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -15,9 +14,6 @@ h1,p,h2,iframe {
     margin:0;
 }
 
-.shading {
-}
-
 header {
     text-align:center;
     font-size:32px;
@@ -25,6 +21,10 @@ header {
 
 header h1 {
     padding-bottom:30px;
+}
+
+.content {
+    width:80%;
 }
 
 .testimonials {
@@ -38,7 +38,6 @@ header h1 {
     width:800px;
     font-size:24px;
     text-align:center;
-    margin-left:240px;
     margin-bottom:30px;
 }
 
