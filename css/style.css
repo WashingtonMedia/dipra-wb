@@ -6,8 +6,6 @@ html {
   -o-background-size: cover;
   background-size: cover;
   color:rgb(30, 100, 181);
-  font-family:'Droid Sans';
-  font-weight:700;
 }
 
 h1,p,h2,iframe {
@@ -15,12 +13,23 @@ h1,p,h2,iframe {
     margin:0;
 }
 
+h1,h2 {
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+    color: #c5edff;
+    font-family: 'Oswald';
+    font-weight:700;
+
+}
+
+p {
+    font-family:'Abel';
+    color:#5ec3f2;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
 header {
     text-align:center;
     font-size:32px;
-}
-
-header h1 {
     padding-bottom:30px;
 }
 
@@ -32,10 +41,10 @@ header h1 {
 .testimonials p {
     margin:0;
     padding:0;
-    width:800px;
-    font-size:24px;
+    width:700px;
+    font-size:32px;
     text-align:center;
-    margin-left:240px;
+    margin-left:290px;
     margin-bottom:30px;
 }
 
